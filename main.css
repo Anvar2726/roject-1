@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Objective', Inter, sans-serif;
+}
+.container{
+    width: 1240px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+/* header */
+.header-box{
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+
+.logo{
+    display: inline-block;
+}
+.logo a{
+    text-decoration: none;
+    color: #4A99D3;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.navigation{
+    display: inline-block;
+    margin-left: auto;
+}
+.navigation-item{
+    display: inline-block;
+}
+.navigation-items{
+    display: inline-block;
+}
+.navigation-items a{
+    text-decoration: none;
+    color: #0F001A;
+    text-transform: capitalize;
+    padding-left: 55px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.navigation-items a:hover{
+    color: #4A99D3;
+}
+
+/* section-intro */
+.section-intro{
+    opacity: 0.9;
+    border-top: none;
+    box-shadow: 0px 5px 4px 0px rgba(75, 0, 129, 0.26);
+}
+
+.section-intro-box{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.section-intro-box-item1{
+    width: 636px;
+    padding-top: 160px;
+}
+.section-intro-box-item2{
+    background-image: url("./img/phones.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 441px;
+    height: 534px;
+    margin-top:90px ;
+    margin-bottom: 63px;
+}
+.section-intro-title{
+    color: #260041;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 70px; 
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+}
+.section-intro-subtitle{
+    color: #260041;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px; 
+}
+.google{
+    width: 180px;
+    height: 60px;
+    background-color: #4A99D3;
+    border-radius: 4px;
+    border: none;
+    padding:14px 22px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+.appstore{
+    width: 180px;
+    height: 60px;
+    background-color: #4A99D3;
+    border-radius: 4px;
+    border: none;
+    padding: 13px 26.48px 12.8px 26px;
+    margin-top: 60px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/* section-services */
+.section-services-title{
+    width: 395px;
+    line-height: 46px;
+    letter-spacing: 1.8px;
+    font-weight: 500;
+    color: #260041;
+    font-size: 36px;
+    padding-top: 146px;
+    margin-bottom: 84px;
+}
+li{
+    list-style: none;
+}
+/* cards */
+.services-card{
+    width: 380px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 5px 20px 50px 0px rgba(74, 153, 211, 0.20);
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+.services-card-img{
+    margin-left: 74px;
+    margin-top: 48px;
+}
+.services-card-title{
+    color: #0F001A;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+    margin-top: 56px;
+    padding-left: 48px;
+}
+.services-card-subtitle{
+    color: #0F001A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 16px 48px;
+}
+.services-card-link a{
+    display: inline-block;
+    text-decoration: none;
+    color: #4A99D3;
+    font-weight: 500;
+    font-size: 14px;
+    padding-left: 48px;
+    padding-bottom: 51px;
+    padding-top: 62px;
+}
+/*cards end */
+.services-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* about-section */
+.about-section{
+    background: #4A99D31A;
+    margin-top: 90px;
+}
+.about-box{
+    text-align: center;
+}
+.about-section-title{
+    padding-top: 95px;
+    color: #4A99D3;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.about-box-wrapper{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 88px;
+}
+.about-box-wrapper div{
+    width: 224px;
+    text-align: center;
+    padding-bottom: 95px;
+}
+.wrapper-img{
+    cursor: pointer;
+}
+.wrapper-title{
+    color: #0F001A;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 30px;
+}
+.wrapper-info{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* testimonials */
+.testimonials-section{
+    padding-top: 87px;
+}
+.testimonials-section-box{
+    text-align: center;
+}
+.testimonials-box-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.testimonials-box-wrapper-item{
+    background: rgba(74, 153, 211, 0.10);
+    width: 557px;
+    height: 400px;
+    margin-top: 244px;
+    border-radius: 4px;
+}
+
+.testimonials-box-wrapper-item2{
+    text-align: left;
+    width: 418px;
+    padding-top: 320px;
+}
+.testimonials-section-title{
+    color: #0F001A;
+    font-size: 26px;
+    font-weight: 700;
+}
+.testimonials-box-wrapper-item2-info{
+    padding: 40px 0;
+    color: #0F001A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.testimonials-box-wrapper-item2-name{
+    color: #0F001A;
+    font-size: 18px;
+    font-weight: 500;
+}
+.testimonials-intro-box{
+    width: 444px;
+}
+.testimonials-box-wrapper2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 158px;   
+}
+.testimonials-intro-box{
+    padding-top: 114px;
+}
+.google2{
+    background-color: black;
+    color: white;
+    margin-top: 16px;
+}
+
+/* footer */
+.footer{
+    background: #4A99D3;
+    border-bottom: 1px solid #fff;
+}
+
+.footer-wrapper{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding-top: 56px;
+}
+.footer-list{
+    display: inline-block;
+}
+.footer-list-item1{
+    padding-bottom: 10px;
+}
+.footer-list-item1 a{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 19px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid white;
+    color: #FFF;
+}
+.footer-list-item{
+    margin: 10px 0;
+}
+.footer-list-item a{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #FFF;
+    padding: 5px 0;
+}
+.footer-info{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 364px;
+}
+/* license */
+.license{
+    background: #4A99D3;
+}
+.license p{
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+}
+.license-wrapper{
+    display: flex;
+    align-items: center;
+}
